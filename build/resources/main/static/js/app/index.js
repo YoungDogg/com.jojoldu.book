@@ -63,7 +63,7 @@ var main = {
                         dataType: 'json',
                         contentType:'application/json; charset=utf-8'
                     }).done(function() {
-                        alert('글을 삭제하였ㅅ습니다.');
+                        alert('글을 삭제하였습니다.');
                         window.location.href = '/';
                     }).fail(function (error) {
                         alert(JSON.stringify(error));
